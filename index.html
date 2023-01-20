@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            user-select: none;
+            vertical-align: top;
+        }
+
+        html, body {
+            color: #000000;
+            font-size: 17px;
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-color: #eaeaea;
+        }
+
+        .box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: left;
+            background-color: #f8f8f8;
+        }
+
+        .tit {
+            transition: background-color 100ms;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 2px 10px;
+            margin: 2px 0px;
+        }
+
+        .tit:hover {
+            background-color: #ffffff;
+        }
+
+        a {
+            cursor: pointer;
+            margin: 4px;
+            display: block;
+            padding: 3px 13px;
+            border-radius: 7px;
+            transition: background-color 100ms, transform 200ms;
+        }
+
+        a:hover {
+            background-color: #ffffff;
+        }
+
+        a:active {
+            transform: scale(0.95);
+        }
+
+        .content {
+            overflow: hidden;
+            position: fixed;
+            top: 32px;
+            width: 175px;
+            border-radius: 7px;
+            background-color: #fafafa;
+            box-shadow: 0px 0px 0px 2px lightgray, 5px 5px 7.5px rgba(0, 0, 0, 0.2);
+            transition: all 200ms;
+            display: none;
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+            background-image: url('/code_70x70.png');
+            background-size: calc(120%);
+            background-position: calc(60%);
+            margin-right: 2px;
+            margin-left: 6px;
+        }
+
+        hr {
+            border-style: solid;
+            border-color: lightgray;
+            margin: 2px 6px;
+        }
+    </style>
+</head>
+
+<body tabindex="-1" oncontextmenu="showcontextmenu('main');">
+    <div class="box">
+        <div class="logo"></div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+        <div class="dp" tabindex="-1">
+            <div class="tit">测试</div>
+            <div class="content">
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <hr>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+                <a>功能</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        for (const elt of document.querySelectorAll('.box>.dp')) {
+            elt.addEventListener('focus', function () {
+                this.lastElementChild.style.display = 'block';
+                this.parentElement.dataset.active = 'true';
+            });
+            elt.addEventListener('mouseenter', function () {
+                if (this.parentElement.dataset.active == 'true') {
+                    this.focus();
+                }
+            });
+            elt.addEventListener('blur', function () {
+                this.lastElementChild.style.display = 'none';
+                this.parentElement.dataset.active = 'false';
+            });
+        }
+    </script>
+</body>
+
+</html>
